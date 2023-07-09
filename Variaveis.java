@@ -24,6 +24,14 @@ public class Variaveis {
 		
 		System.out.println(ii);
 		
+		// conversao (cast implicito)
+		i = s;
+		System.out.println(i);
+		
+		// cast explicito
+		i = (int) l;
+		System.out.println(i);
+		
 	}
 	
 }
