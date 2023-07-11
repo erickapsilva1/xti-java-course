@@ -7,7 +7,7 @@ public class RollDiceChallenge {
 		Random random = new Random();
 		Scanner scanner = new Scanner(System.in);
 		
-		int roll = random.nextInt(6);
+		int roll = random.nextInt(6) + 1;
 		
 		System.out.println("Rolled dice! What's your guess?");
 		

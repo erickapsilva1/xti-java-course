@@ -8,7 +8,7 @@ public class FlowII {
 				System.out.println("Male");
 				break;
 			case 'F':
-				System.out.println("Famele");
+				System.out.println("Famale");
 				break;
 			case 'O':
 				System.out.println("Other");
