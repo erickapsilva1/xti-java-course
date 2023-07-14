@@ -1,4 +1,4 @@
-package oop;
+package br.com.xti.oop;
 
 public class DogTest {
 
