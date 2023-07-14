@@ -22,5 +22,7 @@ public class ClassesWrapper {
 		int i1 = Integer.parseInt("123");
 		float g1 = Float.parseFloat("3.1415F");
 		
+		int i2 = Integer.valueOf
+		
 	}
 }
