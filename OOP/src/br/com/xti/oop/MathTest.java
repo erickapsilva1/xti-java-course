@@ -10,6 +10,10 @@ public class MathTest {
 		
 		double sum = math.sum(10, 99);
 		System.out.println(sum);
+		
+		System.out.println(math.root(9));
+		System.out.println(math.root(81));
+		System.out.println(math.root(27));
 	}
 
 }

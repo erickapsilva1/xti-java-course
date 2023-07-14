@@ -19,4 +19,23 @@ public class Math {
 		return number1 + number2;
 	}
 	
+	/**
+	 * 
+	 * @param number
+	 * @return square root according to Pell's equation
+	 */
+	int root(int number) {
+		
+		int count = 0;
+		int j = 1;
+		
+		do {
+			number -= j;
+			count += 1;
+			j+=2;
+		}while(number >= j);
+		
+		return count;
+	}
+	
 }
