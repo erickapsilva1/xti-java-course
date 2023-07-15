@@ -1,4 +1,4 @@
-package br.com.xti.programminglogic;
+package br.com.xti.oop;
 
 public class Employee {
 	
