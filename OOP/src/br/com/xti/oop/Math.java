@@ -15,8 +15,15 @@ public class Math {
 		}
 	}
 	
-	double sum(double number1, double number2) {
-		return number1 + number2;
+	// to implement methods that accept "n" arguments, use "..." or "[]"
+	double sum(String title, double ... numbers) {
+		System.out.print(title);
+		double totalSum = 0;
+		
+		for(double number : numbers) {
+			totalSum += number;
+		}
+		return totalSum;
 	}
 	
 	/**

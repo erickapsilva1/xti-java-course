@@ -8,7 +8,7 @@ public class MathTest {
 		int biggest = math.biggest(10, 20);
 		System.out.println(biggest);
 		
-		double sum = math.sum(10, 99);
+		double sum = math.sum("Sum: ", 10, 99, 998, 1, 814);
 		System.out.println(sum);
 		
 		System.out.println(math.root(9));
