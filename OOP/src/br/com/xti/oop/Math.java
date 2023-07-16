@@ -45,4 +45,31 @@ public class Math {
 		return count;
 	}
 	
+	double average(double number1, double number2) {
+		System.out.println("Assingment: average(double number1, double number2)");
+		return (number1 + number2) / 2;
+	}
+	
+	double average(double number1, double number2, double number3) {
+		System.out.println("Assingment: average(double number1, double number2, double number3)");
+		return (number1 + number2 + number3) / 3;
+	}
+	
+	double average(double ... numbers) {
+		System.out.println("Assingment: average(double ... numbers)");
+		double numberSum = 0;
+		
+		for(double number : numbers) {
+			numberSum += number;
+		}
+		return numberSum / numbers.length;
+	}
+	
+	double average(String number1, String number2) {
+		System.out.println("Assingment: average(String number1, String number2)");
+		Float f1 = Float.parseFloat(number1);
+		Float f2 = Float.parseFloat(number2);
+		return (f1 + f2) / 2;
+	}
+	
 }
