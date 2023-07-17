@@ -8,10 +8,16 @@ public class CarTest {
 		ferrari.model = "Ferrari Enzo";
 		ferrari.maxSpeed = 349;
 		ferrari.fromZeroToHundred = 3.2;
+		Engine v12 = new Engine();
+		v12.type = "V12";
+		v12.enginePower = 660;
+		ferrari.engine = v12;   // add a Engine to a Car
 		
 		Car koenigsegg = new Car("Koenigsegg CCXR", 430, 3.1);
+		Engine v8 = new Engine("V8", 1018);
+		koenigsegg.engine = v8;
 		
-		System.out.println(koenigsegg.model);
+		System.out.println(koenigsegg.engine.enginePower);
 	}
 
 }

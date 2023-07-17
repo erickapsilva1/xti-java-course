@@ -5,6 +5,7 @@ public class Car {
 	String model;
 	int maxSpeed;
 	double fromZeroToHundred;
+	Engine engine;
 	
 	public Car() {
 		
