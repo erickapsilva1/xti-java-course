@@ -18,6 +18,10 @@ public class CarTest {
 		koenigsegg.engine = v8;
 		
 		System.out.println(koenigsegg.engine.enginePower);
+		
+		Car bugatti = new Car("Bugatti Veyron", 430, 2.2, new Engine("W16", 1200));
+		System.out.println(bugatti.engine.enginePower);
+		
 	}
 
 }
