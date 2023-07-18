@@ -11,6 +11,10 @@ public class AnimalTest {
 		Hen hen = new Hen();
 		hen.food = "Corn grain";
 		hen.makeNoise();
+		
+		System.out.println(dog instanceof Dog);
+		System.out.println(hen instanceof Animal);
+
 
 	}
 
