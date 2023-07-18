@@ -6,6 +6,10 @@ public abstract class Animal {
 	double weight;
 	String food;
 	
+	final void sleep() {
+		System.out.println("it slept");
+	}
+	
 	abstract void makeNoise();
 
 }
