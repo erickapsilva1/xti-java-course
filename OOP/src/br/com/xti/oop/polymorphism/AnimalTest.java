@@ -16,8 +16,8 @@ public class AnimalTest {
 		hen.food = "Corn grain";
 		hen.makeNoise();
 		
-		Animal animal = new Animal();
-		animal.makeNoise();
+		// Animal animal = new Animal(); error
+		// animal.makeNoise();
 		
 		noise(dog);
 		noise(hen);
