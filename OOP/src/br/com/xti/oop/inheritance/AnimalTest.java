@@ -14,6 +14,7 @@ public class AnimalTest {
 		
 		System.out.println(dog instanceof Dog);
 		System.out.println(hen instanceof Animal);
+		
 
 
 	}
