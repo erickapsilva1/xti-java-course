@@ -36,9 +36,35 @@ public class Operations {
 		st.regionMatches(true, 5, "up", 0, 2);   // searching and compare strings ignoring case
 		
 		// extraction
-		String brazil = "The Brazil is Beatiful!";
-//		brazil.substring(14);					 // extract from position "x"
+		String brazil = "The Brazil is Beautiful!";
+		String myWord = brazil.substring(14);	 // extract from position "x"
+		System.out.println(myWord);
+		String pieceOfString = 
+				brazil.substring(4, 10);
+		System.out.println(pieceOfString);		 // extract a piece of a string
 		
+		// union
+		String phrase = "Java is ";
+		phrase.concat("great!");
+		System.out.println(phrase.concat("great!"));  // union a string to another one
+		
+		// change characters
+		String strDemo = "Data Science";
+		strDemo = strDemo.replace("Science", "Analysis");
+		System.out.println(strDemo);               // change part of a string
+		strDemo = strDemo.replaceFirst("A", "X");
+		System.out.println(strDemo);              // change the first occurrence
+		strDemo = strDemo.replaceAll(" ", "");	  // change all occurrences
+		System.out.println(strDemo);
+		
+		// cases
+		String myString = "Abc";
+		myString.toLowerCase();					// lower case
+		myString.toUpperCase();					// upper case
+		
+		// remove blank spaces
+		myString = "   Abc   ";
+		myString.trim();
 		
 	}
 
