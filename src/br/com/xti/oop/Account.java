@@ -1,9 +1,9 @@
 package br.com.xti.oop;
 
-public class Account {
+public class Account implements java.io.Serializable {
 	
 	String customerName;
-	double balance;
+	transient double balance;
 	
 	public Account() {}
 	public Account(String customerName, double balance) {
