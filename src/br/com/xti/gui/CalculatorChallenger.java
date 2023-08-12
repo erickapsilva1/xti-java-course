@@ -193,7 +193,6 @@ public class CalculatorChallenger extends JFrame implements ActionListener {
                 displayResult.setText(displayResult.getText()
                         + display.getText() + " "
                         + e.getActionCommand() + " ");
-                //display.setText("");
             }
         }
     }
