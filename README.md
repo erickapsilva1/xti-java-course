@@ -1,6 +1,4 @@
-# Welcome to StackEdit!
-
-XTI Java Course
+# XTI Java Course
 
 > This repo is related to **Universidade XTI** Java course. 
 The course no longer exists through official channels, however, it is possible to find it on Youtube or shared through the bittorrent network.
@@ -72,7 +70,6 @@ The course no longer exists through official channels, however, it is possible t
 * Event and Listeners
 * JLabel and ImageIcon
 * JTextField and JPasswordField
-* [Calculator Challenge](https://github.com/erickapsilva1/xti-java-course/blob/master/src/br/com/xti/gui/CalculatorChallenger.java): 
-	* ![Calc Challenge](https://giphy.com/gifs/g9f3HsP9CbBj9sdNe9)
+<iframe src="https://giphy.com/embed/g9f3HsP9CbBj9sdNe9" width="412" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/g9f3HsP9CbBj9sdNe9"></a></p>
 
 
