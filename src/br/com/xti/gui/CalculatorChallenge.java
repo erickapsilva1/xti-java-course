@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class CalculatorChallenger extends JFrame implements ActionListener {
+public class CalculatorChallenge extends JFrame implements ActionListener {
 
     JTextField display, displayResult;
     JButton zero, one, two, three, four, five, six, seven, eight, nine;
@@ -16,8 +16,8 @@ public class CalculatorChallenger extends JFrame implements ActionListener {
 
     public double firstNumber, secondNumber;
 
-    public CalculatorChallenger() {
-        super("Calculator Challenger V2");
+    public CalculatorChallenge() {
+        super("Calculator Challenge V2");
 
         display = new JTextField();
         display.setFont(new Font("serif", Font.PLAIN, 26));
@@ -135,7 +135,7 @@ public class CalculatorChallenger extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        new CalculatorChallenger();
+        new CalculatorChallenge();
     }
 
     void clearMemory() {
