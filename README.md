@@ -1,6 +1,4 @@
-# Welcome to StackEdit!
-
-XTI Java Course
+# XTI Java Course
 
 > This repo is related to **Universidade XTI** Java course. 
 The course no longer exists through official channels, however, it is possible to find it on Youtube or shared through the bittorrent network.
