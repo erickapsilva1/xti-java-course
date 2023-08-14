@@ -87,6 +87,9 @@ The course no longer exists through official channels, however, it is possible t
 * Set
 * Queue
 * Map
+* Generics
 
-### Generics
+### Threads
+* start, run, sleep
+* Runnable
 * 
