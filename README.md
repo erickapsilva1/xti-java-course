@@ -21,7 +21,7 @@ The course no longer exists through official channels, however, it is possible t
 * Challenges
 
 ### OOP
-* Introdution
+* Introduction
 * First Class
 * Packages
 * Methods and Parameters
@@ -70,6 +70,15 @@ The course no longer exists through official channels, however, it is possible t
 * Event and Listeners
 * JLabel and ImageIcon
 * JTextField and JPasswordField
-* [Calculator Challenge](https://github.com/erickapsilva1/xti-java-course/blob/master/src/br/com/xti/gui/CalculatorChallenger.java):
+* [Calculator Challenge](https://github.com/erickapsilva1/xti-java-course/blob/master/src/br/com/xti/gui/CalculatorChallenge.java):
 
 ![Calculator Challenge Result](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzRwejNpYjIzYmU2Y3ZldTMzNHgxMHBla3RvNzU3cjVuZ3I3YXNqaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/g9f3HsP9CbBj9sdNe9/giphy.gif)
+
+* JCheckBox and ItemListener
+* JComboBox
+* JTextArea e JFilechooser
+* Fahrenheit to Celsius Converter
+
+### Collections
+* Collection<String>
+* ArrayList
