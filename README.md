@@ -82,3 +82,8 @@ The course no longer exists through official channels, however, it is possible t
 ### Collections
 * Collection<String>
 * ArrayList
+* List
+* Collections Utility
+* Set
+* Queue
+* Map
