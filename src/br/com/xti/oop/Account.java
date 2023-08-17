@@ -2,7 +2,7 @@ package br.com.xti.oop;
 
 public class Account implements java.io.Serializable {
 	
-	String customerName;
+	public String customerName;
 	transient double balance;
 	
 	public Account() {}
@@ -19,7 +19,7 @@ public class Account implements java.io.Serializable {
 		return this.balance;
 	}
 	
-	void showBalance() {
+	public void showBalance() {
 		System.out.println(customerName + ", your balance is " + balance);
 	}
 	
@@ -27,7 +27,7 @@ public class Account implements java.io.Serializable {
 		balance -= withdrawValue;
 	}
 	
-	void deposit(int depositValue) {
+	public void deposit(int depositValue) {
 		balance += depositValue;
 	}
 	
