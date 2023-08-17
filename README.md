@@ -94,3 +94,8 @@ The course no longer exists through official channels, however, it is possible t
 * Runnable
 * synchronized
 * wait, notifyAll
+
+
+### Refined Topics
+* Nested and Anonymous classes
+* Recursion
