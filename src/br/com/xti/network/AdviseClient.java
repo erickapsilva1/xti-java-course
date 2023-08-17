@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class ClientAdvise {
+public class AdviseClient {
     public static void main(String[] args) throws IOException {
 
         // 0 - 1023: already reserved

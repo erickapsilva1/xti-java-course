@@ -5,7 +5,7 @@ import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class ServerAdvise {
+public class AdviseServer {
     public static void main(String[] args) throws IOException {
 
         ServerSocket server = new ServerSocket(5000);
