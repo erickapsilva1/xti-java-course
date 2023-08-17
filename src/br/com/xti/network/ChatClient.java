@@ -6,6 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.PrintWriter;
 import java.net.Socket;
+import java.util.Scanner;
 
 public class ChatClient extends JFrame {
 
@@ -13,6 +14,21 @@ public class ChatClient extends JFrame {
     Socket socket;
     PrintWriter printWriter;
     String name;
+    JTextArea receivedText;
+    Scanner scanner;
+
+    private class ServerListener implements Runnable{
+
+        @Override
+        public void run() {
+            try {
+                String text;
+                while ((text = scanner.nextLine()) != null) {
+                    receivedText.append(text + "\n");
+                }
+            }catch (Exception exception){}
+        }
+    }
 
     public ChatClient(String name){
         super("Chat: " + name);
@@ -33,11 +49,16 @@ public class ChatClient extends JFrame {
         send.add(BorderLayout.CENTER, textToSend);
         send.add(BorderLayout.EAST, jButton);
 
+        receivedText = new JTextArea();
+        receivedText.setFont(font);
+        JScrollPane jScrollPane = new JScrollPane(receivedText);
+
         getContentPane().add(BorderLayout.SOUTH, send);
+        getContentPane().add(BorderLayout.CENTER, jScrollPane);
 
         setupNetwork();
 
-        setSize(500,90);
+        setSize(500,500);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
     }
@@ -57,6 +78,8 @@ public class ChatClient extends JFrame {
         try {
             socket = new Socket("127.0.0.1", 5000);
             printWriter = new PrintWriter(socket.getOutputStream());
+            scanner = new Scanner(socket.getInputStream());
+            new Thread(new ServerListener()).start();
         }catch (Exception exception){
 
         }
