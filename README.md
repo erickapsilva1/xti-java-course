@@ -4,7 +4,7 @@
 The course no longer exists through official channels, however, it is possible to find it on Youtube or shared through the bittorrent network.
 >The content covers the main topics and components of **core Java**: 
 
-### Introduction
+### Introduction 🐣
 * Logical Programming Introduction
 * Hello World! 😁
 * Java Fundamentals
@@ -20,7 +20,7 @@ The course no longer exists through official channels, however, it is possible t
 * Box and Autoxobing
 * Challenges
 
-### OOP
+### OOP ⏭️
 * Introduction
 * First Class
 * Packages
@@ -41,13 +41,13 @@ The course no longer exists through official channels, however, it is possible t
 * Final Classes
 * Interface
 
-### Exceptions
+### Exceptions 🚨
 * Try, Catch, and Finally
 * Multi catch, Stacktrace, and Throws
 * Class Hierarchy
 * Assertions
 
-### Most Important Java Classes
+### Most Important Java Classes ☕
 * String
 * Split, Tokens, and Delimins
 * Stringbuffer and Stringbuilder
@@ -64,7 +64,7 @@ The course no longer exists through official channels, however, it is possible t
 * NumberFormat
 * Math
 
-### GUI
+### GUI 🪟
 * BorderLayout and FlowLayout
 * GridLayout and Compose
 * Event and Listeners
@@ -79,7 +79,7 @@ The course no longer exists through official channels, however, it is possible t
 * JTextArea e JFilechooser
 * Fahrenheit to Celsius Converter
 
-### Collections
+### Collections 👨‍👩‍👧‍👦
 * Collection<String>
 * ArrayList
 * List
@@ -89,14 +89,14 @@ The course no longer exists through official channels, however, it is possible t
 * Map
 * Generics
 
-### Threads
+### Threads ⬆️⬇️↗️➡️
 * start, run, sleep
 * Runnable
 * synchronized
 * wait, notifyAll
 
 
-### Refined Topics
+### Refined Topics 🧑‍🎓
 * Nested and Anonymous classes
 * Recursion
 * Java Documentation
@@ -104,18 +104,20 @@ The course no longer exists through official channels, however, it is possible t
 * Reflection
 * Properties, Console, and Runtime
 
-### Network
+### Network 💻
 * Socket and SocketServer
 * Creating a Chat
 
-### JAR and ClassPath
+### JAR and ClassPath 🥣
 * How to create JAR and use ClassPath
   
-### SQL
+### SQL 🎲
 * Select, Driver, Connection, Statement, and Resultset
 * CRUD
 * Transaction, Commit, and Rollback
 
-### JUnit
+### JUnit 👁️‍🗨️
 * Performing tests using JUnit
 * TestSuite with JUnit
+
+Special thanks to: Ricardo Lopes Costa 👏👏👏
