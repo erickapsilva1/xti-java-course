@@ -7,7 +7,7 @@ public class Math {
 	 * @param number2
 	 * @return the biggest of the two numbers
 	 */
-	int biggest(int number1, int number2) {
+	public int biggest(int number1, int number2) {
 		if(number1 > number2) {
 			return number1;
 		}else {
@@ -16,7 +16,7 @@ public class Math {
 	}
 	
 	// to implement methods that accept "n" arguments, use "..." or "[]"
-	double sum(String title, double ... numbers) {
+	public double sum(String title, double ... numbers) {
 		System.out.print(title);
 		double totalSum = 0;
 		
@@ -31,7 +31,7 @@ public class Math {
 	 * @param number
 	 * @return square root according to Pell's equation
 	 */
-	int root(int number) {
+	public int root(int number) {
 		
 		int count = 0;
 		int j = 1;
@@ -44,18 +44,22 @@ public class Math {
 		
 		return count;
 	}
-	
-	double average(double number1, double number2) {
+
+	public double divide(double number1, double number2){
+		return number1/number2;
+	}
+
+	public double average(double number1, double number2) {
 		System.out.println("Assingment: average(double number1, double number2)");
 		return (number1 + number2) / 2;
 	}
-	
-	double average(double number1, double number2, double number3) {
+
+	public double average(double number1, double number2, double number3) {
 		System.out.println("Assingment: average(double number1, double number2, double number3)");
 		return (number1 + number2 + number3) / 3;
 	}
-	
-	double average(double ... numbers) {
+
+	public double average(double ... numbers) {
 		System.out.println("Assingment: average(double ... numbers)");
 		double numberSum = 0;
 		
@@ -64,8 +68,8 @@ public class Math {
 		}
 		return numberSum / numbers.length;
 	}
-	
-	double average(String number1, String number2) {
+
+	public double average(String number1, String number2) {
 		System.out.println("Assingment: average(String number1, String number2)");
 		Float f1 = Float.parseFloat(number1);
 		Float f2 = Float.parseFloat(number2);
