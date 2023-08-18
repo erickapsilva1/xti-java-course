@@ -9,6 +9,30 @@ import java.util.List;
 
 public class AccountCRUD {
 
+    public void transfer(Connection connection, Account source, Account destination, double amount) throws SQLException {
+        if(source.balance >= amount){
+
+            try {
+                connection.setAutoCommit(false);
+
+                // withdraw
+                source.balance -= amount;
+                change(connection, source);
+
+                //int x = 1/0; // error!!
+
+                // deposit
+                destination.balance += amount;
+                change(connection, destination);
+
+                connection.commit();
+
+            } catch (Exception exception){
+                connection.rollback();
+            }
+        }
+    }
+
     public void create(Connection connection, Account account) throws SQLException {
         String sql = "INSERT INTO CONTA VALUES (?, ?, ?)";
         try(PreparedStatement preparedStatement = connection.prepareStatement(sql)) {

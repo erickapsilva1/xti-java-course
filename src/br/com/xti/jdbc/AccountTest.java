@@ -26,10 +26,20 @@ public class AccountTest {
             crud.change(connection, account1);
 
             // DELETE
-            crud.delete(connection, account3);
+            //crud.delete(connection, account3);
 
             // LIST
             List<Account> accountList = crud.read(connection);
+            for(Account account : accountList){
+                System.out.println(account);
+            }
+
+            Account origin = accountList.get(0);
+            Account destination = accountList.get(1);
+
+            crud.transfer(connection, origin, destination, 500);
+
+            accountList = crud.read(connection);
             for(Account account : accountList){
                 System.out.println(account);
             }

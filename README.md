@@ -113,4 +113,5 @@ The course no longer exists through official channels, however, it is possible t
   
 ### SQL
 * Select, Driver, Connection, Statement, and Resultset
-* 
+* CRUD
+* Transaction, Commit, and Rollback
