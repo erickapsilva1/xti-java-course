@@ -102,6 +102,7 @@ The course no longer exists through official channels, however, it is possible t
 * Java Documentation
 * Annotation
 * Reflection
+* Properties, Console, and Runtime
 
 ### Network
 * Socket and SocketServer
